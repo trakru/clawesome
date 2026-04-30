@@ -1,0 +1,13 @@
+{
+  "name": "cut-the-complexity",
+  "version": "0.1.0",
+  "description": "Catch over-engineering, speculative generality, and catch-all framework designs in plans before approving them.",
+  "author": {
+    "name": "Ankush Trakru",
+    "email": "atrakru01@gmail.com"
+  },
+  "homepage": "https://github.com/trakru/clawesome",
+  "repository": "https://github.com/trakru/clawesome",
+  "license": "MIT",
+  "keywords": ["complexity", "design-review", "planning", "skill"]
+}

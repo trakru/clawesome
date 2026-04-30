@@ -1,0 +1,24 @@
+{
+  "name": "clawesome",
+  "owner": {
+    "name": "Ankush Trakru",
+    "email": "atrakru01@gmail.com"
+  },
+  "description": "A small collection of Claude Code skills.",
+  "plugins": [
+    {
+      "name": "cut-the-complexity",
+      "source": "./plugins/cut-the-complexity",
+      "description": "Catch over-engineering, speculative generality, and catch-all framework designs in plans before approving them.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ankush Trakru",
+        "email": "atrakru01@gmail.com"
+      },
+      "homepage": "https://github.com/trakru/clawesome",
+      "repository": "https://github.com/trakru/clawesome",
+      "license": "MIT",
+      "keywords": ["complexity", "design-review", "planning", "skill"]
+    }
+  ]
+}
