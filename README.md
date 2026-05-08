@@ -5,7 +5,7 @@ A [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin marketplace.
 ## Plugins
 
 - **[cut-the-complexity](plugins/cut-the-complexity/skills/cut-the-complexity/SKILL.md)** — Catch over-engineering, speculative generality, and catch-all framework designs in plans (from `/plan`, design docs, or another agent's proposal) before approving them. Distilled from Eugene Yan's *[Simplicity is An Advantage but Sadly Complexity Sells Better](https://eugeneyan.com/writing/simplicity/)*.
-- **[agentic-ai-evaluator](plugins/agentic-ai-evaluator/skills/agentic-ai-evaluator/SKILL.md)** — Evaluate an AI, LLM, RAG, or agent codebase against a production system-design rubric (8 dimensions: business framing, orchestration, context, memory, training/alignment, infra, evaluation, robustness) and write a structured `EVALUATION.md` report at the repo root.
+- **[agentic-ai-evaluator](plugins/agentic-ai-evaluator/skills/agentic-ai-evaluator/SKILL.md)** — Evaluate an AI, LLM, RAG, or agent codebase against a production system-design rubric (8 dimensions: business framing, orchestration, context, memory, training/alignment, infra, evaluation, robustness) and write a timestamped report under `docs/agentic-eval/`.
 
 ## Installation
 
