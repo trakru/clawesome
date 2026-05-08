@@ -1,11 +1,11 @@
 ---
 name: agentic-ai-evaluator
-description: Evaluate an AI/ML/agent codebase against a production system-design rubric and write an EVALUATION.md report at the repo root. Use when the user asks to review, audit, critique, assess, or "see what's wrong with" an AI/LLM/agent/RAG repo, or asks how production-ready their AI solution is. Trigger on phrases like "review my agent", "audit this RAG pipeline", "is this production ready", "what would a staff engineer say about this", or whenever the user opens a clearly AI/agent project and asks for a code review.
+description: Evaluate an AI/ML/agent codebase against a production system-design rubric and write a timestamped report under `docs/agentic-eval/`. Use when the user asks to review, audit, critique, assess, or "see what's wrong with" an AI/LLM/agent/RAG repo, or asks how production-ready their AI solution is. Trigger on phrases like "review my agent", "audit this RAG pipeline", "is this production ready", "what would a staff engineer say about this", or whenever the user opens a clearly AI/agent project and asks for a code review.
 ---
 
 # Agentic AI Evaluator
 
-Read a repo, understand what it's trying to do, evaluate it against the rubric below, and write a single `EVALUATION.md` at the repo root.
+Read a repo, understand what it's trying to do, evaluate it against the rubric below, and write a timestamped report at `docs/agentic-eval/evaluation-<YYYY-MM-DD-HHMMSS>.md`.
 
 ## When to use
 
@@ -21,7 +21,7 @@ Trigger for substantive review of an AI codebase. Do **not** trigger for general
 
 4. **Synthesize and recommend.** After the per-section pass, write 2–5 cross-cutting observations (patterns spanning sections — usually the most valuable findings, because they describe the *shape* of what's wrong), 5–10 ranked recommendations (ranked by expected blast radius if left unaddressed), and a "What we'd learn from this design" section split into worth-copying patterns and failure modes for other teams to avoid.
 
-5. **Write `EVALUATION.md`** at the repo root. Structure: problem framing → solution summary → per-dimension findings → cross-cutting observations → top recommendations → lessons. If `EVALUATION.md` already exists, ask before overwriting. After writing, give the user a 3–5 sentence chat summary highlighting headline findings and pointing at the file.
+5. **Write the report.** Path: `docs/agentic-eval/evaluation-<YYYY-MM-DD-HHMMSS>.md` (create the directory if missing; use the current local timestamp, e.g. `evaluation-2026-05-08-143012.md`). Structure: problem framing → solution summary → per-dimension findings → cross-cutting observations → top recommendations → lessons. Each run produces a new file — earlier reports stay in place as history. After writing, give the user a 3–5 sentence chat summary highlighting headline findings and pointing at the file.
 
 Use no numeric scores; qualitative prose only. Numbers invite debate and grade-grubbing; prose forces specificity.
 

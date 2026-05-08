@@ -23,7 +23,7 @@
     {
       "name": "agentic-ai-evaluator",
       "source": "./plugins/agentic-ai-evaluator",
-      "description": "Evaluate an AI/agent codebase against a production system-design rubric and write a structured EVALUATION.md report at the repo root.",
+      "description": "Evaluate an AI/agent codebase against a production system-design rubric and write a timestamped report under docs/agentic-eval/.",
       "version": "0.1.0",
       "author": {
         "name": "Ankush Trakru",
