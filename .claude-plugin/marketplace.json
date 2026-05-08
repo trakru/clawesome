@@ -19,6 +19,20 @@
       "repository": "https://github.com/trakru/clawesome",
       "license": "MIT",
       "keywords": ["complexity", "design-review", "planning", "skill"]
+    },
+    {
+      "name": "agentic-ai-evaluator",
+      "source": "./plugins/agentic-ai-evaluator",
+      "description": "Evaluate an AI/agent codebase against a production system-design rubric and write a structured EVALUATION.md report at the repo root.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ankush Trakru",
+        "email": "atrakru01@gmail.com"
+      },
+      "homepage": "https://github.com/trakru/clawesome",
+      "repository": "https://github.com/trakru/clawesome",
+      "license": "MIT",
+      "keywords": ["ai", "agents", "llm", "rag", "code-review", "system-design", "skill"]
     }
   ]
 }
